@@ -1,6 +1,6 @@
 <% if model.errors.any? %>
   <div id="error_explanation" class="alert alert-warning">
-    <h2><%= pluralize(task.errors.count, "error") %> prohibited this task from being saved:</h2>
+    <h2>prohibited this task from being saved:</h2>
 
     <ul class="mb-0">
       <% model.errors.full_messages.each do |message| %>
